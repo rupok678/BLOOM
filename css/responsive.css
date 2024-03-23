@@ -1,0 +1,142 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575px) { 
+    .py_40 {
+        padding: 20px 0 !important;
+    }
+    .pb_60{
+        padding-bottom: 40px !important;
+    }
+    h1 {
+        font-size: 44px;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 34px;
+        font-weight: 500;
+    }
+    h5 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .btn_transparent,
+    .btn {
+        font-size: 14px;
+        padding: 18px 35px;
+    }
+    .img-fluid {
+        max-width: 95%;
+    }
+    .navbar {
+        padding-top: 20px;
+    }
+    .banner_part {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .portfolioPart .py_70 {
+        padding: 35px 0 50px 0 !important;
+    }
+    .cButton {
+        margin-top: 33px;
+    }
+    .cButton .button {
+        font-size: 14px;
+        padding: 20px 39px;
+    }
+    .footerRagister {
+        padding: 33px 0 10px;
+    }
+    .footer_btn {
+        margin-top: 36px;
+        margin-bottom: 46px;
+    }
+    .footerMenu{
+        /* text-align: center; */
+    }
+    .footerLogo.pb_40 {
+        padding-bottom: 28px !important;
+    }
+    .footerLogo.pt_70 {
+        padding-top: 40px !important;
+    }
+    .footerMenu.pt_100 {
+        padding-top: 35px !important;
+    }
+    .lastMenu.pt_100 {
+        padding-top: 22px !important;
+    }
+    .footerMenu ul li {
+        padding-bottom: 20px;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+    .cButton {
+        margin-top: 26px;
+    }
+    .cButton .button {
+        font-size: 17px;
+        padding: 22px 49px;
+        margin-top: 10px;
+    }
+    .footer_btn {
+        margin-top: 38px;
+        margin-bottom: 40px;
+    }
+    .footerRagister {
+        padding: 46px 0 20px;
+    }
+    .footerFrom.py_40{
+        padding: 0 !important;
+    }
+    .footerMenu.pt_100 {
+        padding-top: 40px !important;
+    }
+    .copyRightItem.py_40 {
+        padding: 30px 0 !important;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){ 
+    .marginLT{
+        margin-left: 5%;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    h5 {
+        font-size: 24px;
+    }
+    .banner_items.py_40 {
+        padding: 33px 0 !important;
+    }
+    .banner_part {
+        padding-top: 147px;
+        padding-bottom: 144px;
+    }
+    .cButton {
+        margin-top: 25px;
+    }
+    .copyRightItem.py_40 {
+        padding: 31px 0 !important;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px){ 
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px){ 
+    
+ }
