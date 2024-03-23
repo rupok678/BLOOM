@@ -1,3 +1,5 @@
+/* created by Rupok Email: (mustafijur14244@gmail.com) */
+
 *{
     margin: 0;
     padding: 0;
@@ -406,26 +408,27 @@ p{
     font-size: 20px;
     font-weight: 600;
     color: #ededed;
+    transition: all 0.4s;
 }
+
 .arrow_lt:hover{
     transform: translateX(-8px);
-}   
+    color: #753d9d;
+}
+.arrou_lt:hover{
+    color: #753d9d;
+}
 .arrow_rt{
     position: absolute;
     top: -14%;
     right: 2%;
     font-size: 20px;
     font-weight: 600;
-    color: #ededed;
+    color: #753d9d;
+    transition: all 0.4s;
 }
 .arrow_rt:hover{
     transform: translateX(8px);
-} 
-.fa-solid{
-    transition: all 0.4s;
-}
-.fa-solid.active,
-.fa-solid:hover{
     color: #753d9d;
 }
 /* portfoli part end */

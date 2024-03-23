@@ -1,8 +1,8 @@
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 320px) and (max-width: 575px) { 
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
     .py_40 {
         padding: 20px 0 !important;
     }
@@ -32,12 +32,18 @@
     .navbar {
         padding-top: 20px;
     }
+    .menu li {
+        padding: 5px 10px;
+    }
     .banner_part {
         padding-top: 30px;
         padding-bottom: 40px;
     }
     .portfolioPart .py_70 {
         padding: 35px 0 50px 0 !important;
+    }
+    .arrow_lt {
+        right: 10%;
     }
     .cButton {
         margin-top: 33px;
@@ -77,11 +83,105 @@
  }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px){ 
-    
+    h1 {
+        font-size: 51px;
+    }
+    h5.py_40 {
+        padding: 35px 0 !important;
+    }
+    .banner_part h5 {
+        font-size: 22px;
+    }
+    .header2nd h2 {
+        font-size: 41px;
+    }
+    .banner_part {
+        padding-top: 45px;
+        padding-bottom: 55px;
+    }
+    .banner_items .btn {
+        font-size: 16px;
+        padding: 26px 54px;
+    }
+    .labItems h2 {
+        font-size: 43px;
+    }
+    .labPart.pt_100 {
+        padding-top: 50px !important;
+    }
+    .labPart.pb_70 {
+        padding-bottom: 50px !important;
+    }
+    .cButton {
+        margin-top: 44px;
+    }
+    .cButton .button {
+        font-size: 15px;
+        padding: 22px 71px;
+    }
+    .btn.mt_70 {
+        margin-top: 24px !important;
+    }
+    .arrow_lt {
+        right: 9%;
+    }
+    .aboutContent p {
+        padding: 28px 0 0px;
+    }
+    .aboutPart.py_70 {
+        padding: 50px 0 !important;
+    }
+    .footerFrom.py_40 {
+        padding: 0px 0 !important;
+    }
+    .footer_btn .btn_transparent {
+        padding: 21px 53px;
+    }
+    .footer_btn {
+        margin-top: 44px;
+        margin-bottom: 50px;
+    }
+    .footerLogo.pt_70 {
+        padding-top: 46px !important;
+    }
+    .footerLogo.pb_40 {
+        padding-bottom: 32px !important;
+    }
+    .footerMenu.pt_100 {
+        padding-top: 37px !important;
+    }
+    .footerMenu ul li a {
+        font-size: 13px;
+    }
+    .copyRightItem.py_40 {
+        padding: 35px 0 !important;
+    }
+    .copyRightText p {
+        font-size: 13px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px){ 
+    h1 {
+        font-size: 48px;
+    }
+    .labItems h2,.header2nd h2 {
+        font-size: 45px;
+    }
+    .banner_part {
+        padding-top: 55px;
+        padding-bottom: 100px;
+    }
+    .banner_items h5 {
+        font-size: 24px;
+    }
+    .supportContent p {
+        padding: 20px 0 7px;
+    }
+    .arrow_lt {
+        right: 7%;
+    }
     .cButton {
         margin-top: 26px;
     }
@@ -89,6 +189,15 @@
         font-size: 17px;
         padding: 22px 49px;
         margin-top: 10px;
+    }
+    .labPart.pt_100 {
+        padding-top: 85px!important;
+    }
+    .labPart.pb_70 {
+        padding-bottom: 63px!important;
+    }
+    a.mt_70 {
+        margin-top: 27px!important;
     }
     .footer_btn {
         margin-top: 38px;
